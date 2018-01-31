@@ -1,0 +1,42 @@
+{
+    "defaultSeverity": "error",
+    "extends": [
+        "tslint:recommended"
+    ],
+    "jsRules": {},
+    "rules": {
+        "arrow-parens": false,
+        "interface-name": {
+            "options": ["never-prefix"]
+        },
+        "max-line-length": {
+            "options": [240]
+        },
+        "no-console": false,
+        "no-shadowed-variable": false,
+        "one-line": {
+            "options": [
+                "check-catch",
+                "check-finally",
+                "check-open-brace",
+                "check-whitespace"
+            ]
+        },
+        "quotemark": {
+            "options": [
+                "single",
+                "avoid-escape"
+            ]
+        },
+        "semicolon": {
+            "options": ["never"]
+        },
+        "trailing-comma": {
+            "options": {
+                "multiline": "never",
+                "singleline": "never"
+            }
+        }
+    },
+    "rulesDirectory": []
+}
